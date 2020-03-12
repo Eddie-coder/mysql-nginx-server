@@ -1,0 +1,13 @@
+-
+  name: Install and configure NGINX on web_server
+  hosts: web_server
+  become: yes
+  roles:
+    - geerlingguy.nginx
+
+-
+  name: Install and configure MySQL on db_server
+  hosts: db_server
+  become: yes
+  roles:
+    - geerlingguy.mysql
