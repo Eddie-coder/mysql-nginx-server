@@ -1,0 +1,2 @@
+web_server ansible_host=10.0.0.122  ansible_connection=ssh ansible_user=root ansible_ssh_pass=osboxes.org
+db_server  ansible_host=10.0.0.15   ansible_connection=ssh ansible_user=root ansible_ssh_pass=osboxes.org
